@@ -5,24 +5,37 @@ body{
 
 header{
     background-color: orange;
-    height: 300px;
-}
-
-footer{
-    background-color: orange;
+    min-height: 150px;
 }
 
 h1{
     color: black;
+    margin-left: 40px;
 }
 
-h2{
-    color: orange
+.blog{
+    float: right;
+    background-color: pink;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 20%;
+    margin-bottom: 40px;
 }
 
 article{
-    background-color: pink;
-    width: 500px;
-    margin-bottom: 40px;
     border: 3px solid white;
+}
+
+article:not(:last-child){
+    margin-bottom: 40px;
+}
+
+a{
+    color: orange
+}
+
+footer{
+    background-color: orange;
+    min-height: 100px;
+    clear: both;
 }
