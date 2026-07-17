@@ -31,7 +31,7 @@ article:not(:last-child){
 }
 
 a{
-    color: orange
+    color: black;
 }
 
 footer{
